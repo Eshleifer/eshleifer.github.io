@@ -1,0 +1,190 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Culture Box</title>
+  <link rel=”stylesheet” href=”css/styles.css”>
+  <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Culture Box</title>
+</head>
+
+<style>
+
+  /* HEADER */
+  header {
+    background: #8c8c8c;
+    padding-top: 50px;
+    text-align: left;
+    margin-top: -40px;
+  }
+
+  /* NAVBAR */
+  div.topnav {
+    overflow: hidden;
+    justify-content: space-between;
+  }
+  div.topnav a{
+    float: right;
+    color: hsla(0, 0%, 100%, 0.86);
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 60px;
+    max-width: 700px
+  }
+  div.topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /* Background to body */
+  body {
+    background-color: #f2f2f2;
+  }
+
+  /*Click to Explore */
+  section#firstsection {
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+
+  /* Country Selection */
+  .mobileheight {
+    height: 350px;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  .countryname {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  a.country-link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    transition: 0.3s all ease;
+  }
+  a.country-link:hover {
+    background: rgba(0,0,0,0.7);
+  }
+  .img1 {
+    background-image: url(./Paris.png);
+  }
+  .img2 {
+    background-image: url(./China.png)
+  }
+  .img3 {
+   background-image: url(Brazil.png);
+  }
+
+  /* Social media icons */
+  div.socialmedia {
+    padding-top: 75px;
+    align-items: center;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+  }
+
+</style>
+
+<body>
+  <!-- HEADER -->
+  <!--Navigation bar-->
+  <header>
+    <div id="header" class="container">
+      <div class="inner">
+        <h1>The Culture Box</h1>
+      </div>
+      <div class="topnav">
+          <ul>
+            <a class="active" href="./index3.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./about.html">Contact</a>
+            <a href="./submit.html">Submit your work</a>
+            <a href="./index31.html">Welcome</a>
+          </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- AFTER HEADER-->
+  <div class="container">
+  <section id="firstsection">
+    <div class="container">
+      <h3>Click to explore</h3>
+    </div>
+  </section>
+
+  <!--WorldMap and country names-->
+  <div class="container">
+    <div class="col-md-4 col-sm-12 mobileheight img1">
+      <a class="country-link" href="./France.html">
+        <div class="countryname">
+          <h1>France</h1>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-12 mobileheight img2">
+    <a class="country-link" href="./China2.html">
+      <div class="countryname">
+        <h1>China</h1>
+      </div>
+    </a>
+    </div>
+    <div class="col-md-4 col-sm-12 mobileheight img3">
+      <a class="country-link" href="./Brazil.html">
+        <div class="countryname">
+          <h1>Brazil</h1>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- <div class="col-md-4 col-sm-12 mobileheight img4"> -->
+      <!-- <a class="country-link" href="#Senegal"> -->
+        <!-- <div class="countryname"> -->
+          <!-- <h1>Senegal</h1> -->
+        <!-- </div> -->
+      <!-- </a> -->
+    <!-- </div> -->
+  <!-- <div class="col-md-4 col-sm-12 mobileheight img5"> -->
+      <!-- <a class="country-link" href="#Senegal"> -->
+        <!-- <div class="countryname"> -->
+          <!-- <h1>Senegal</h1> -->
+        <!-- </div> -->
+      <!-- </a> -->
+    <!-- </div> -->
+  <!-- <div class="col-md-4 col-sm-12 mobileheight img6"> -->
+      <!-- <a class="country-link" href="#Senegal"> -->
+        <!-- <div class="countryname"> -->
+          <!-- <h1>Senegal</h1> -->
+        <!-- </div> -->
+      <!-- </a> -->
+    <!-- </div> -->
+  </div>
+
+  <!-- Social media icons -->
+  <footer>
+    <div class="socialmedia">
+      <a class="btn-floating btn-lg btn-fb" type="button" role="button" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+      <a class="tw-ic mr-3" role="button" href="https://www.twitter.com"><i class="fa fa-lg fa-twitter"></i></a>
+      <a class="btn-floating btn-lg btn-ins" type="button" role="button" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>
