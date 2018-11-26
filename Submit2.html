@@ -1,0 +1,191 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Culture Box</title>
+  <link rel=”stylesheet” href=”css/styles.css”>
+  <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Culture Box</title>
+</head>
+
+<style>
+
+  /* HEADER */
+  header {
+    background: #8c8c8c;
+    padding-top: 50px;
+    text-align: left;
+    margin-top: -40px;
+  }
+
+  /* NAVBAR */
+  div.topnav {
+    overflow: hidden;
+    justify-content: space-between;
+  }
+  div.topnav a{
+    float: right;
+    color: hsla(0, 0%, 100%, 0.86);
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 60px;
+    max-width: 700px
+  }
+  div.topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /* Background to body */
+  body {
+    background-color: #f2f2f2;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  /* Social media icons */
+  div.socialmedia {
+    padding-top: 75px;
+    align-items: center;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  section#submit {
+  padding-top:30px;
+  text-align: left;
+  }
+
+  input#firstname {
+    width: 300px;
+  }
+  div.name {
+    align-items: left;
+    padding-top: 60px;
+  }
+
+  div#categoryform {
+  padding-top: 30px;
+  }
+
+  select#category {
+    width: 300px;
+  }
+
+  div#bioform {
+    padding-top: 30px;
+    text-align: left;
+  }
+
+  div#biodiv {
+  align-items: left;
+  }
+
+  input#bio {
+    width: 600px;
+    height: 200px;
+    align-items: left;
+    text-align: left;
+  }
+
+  button {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+  }
+
+</style>
+
+<body>
+  <!-- HEADER and navigation bar -->
+  <header>
+    <div id="header" class="container">
+      <div class="inner">
+        <h1>The Culture Box</h1>
+      </div>
+      <div class="topnav">
+          <ul>
+            <a class="active" href="./homepage.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./about.html">Contact</a>
+            <a href="./submit.html">Submit your work</a>
+          </ul>
+      </div>
+    </div>
+  </header>
+
+
+  <!--Submit section-->
+  <section id="Submit" class="container">
+    <div class="container">
+      <h2> Submit your work!</h2>
+      <p> Have something to contribute? We'd love to hear from you! The guidelines are simple: write a few sentences (ideally a short paragraph or more if you need) about an aspect of a culture you're familiar with. You don't need to be from that country to tell us about it but it'd be great if you have some connection (maybe you speak the language or you love the singer who's from there). Don't forget to include a picture!</p>
+    </div>
+    <!--Your name-->
+    <form>
+      <div class="form-group">
+        <div id="name" class="container">
+        <label for"msg">Your name:</label>
+          <div class="row">
+            <input id="firstname" type="text" class="form-control" placeholder="Name or Anynomous">
+          </div>
+        </div>
+      </div>
+    </form>
+
+      <!--Pick a category: Art, Music, Literature, Food, Landmarks-->
+      <div id="categoryform" class="form-group">
+        <label for"category">Pick a category</label>
+        <select class="form-control" id="category">
+          <option>--</option>
+          <option>Art</option>
+          <option>Music</option>
+          <option>Literature</option>
+          <option>Food</option>
+          <option>Landmarks</option>
+        </select>
+      </div>
+
+      <!--Give a quick bio or background story for this artist, author, etc.-->
+      <div id="bioform" class="form-group">
+        <label for"bio">Give a quick bio or background story for this artist, author, etc.</label>
+        <div id="biodiv" class="container">
+        <input id="bio" type="text" class="message" rows="3" placeholder="People should know about this because...">
+        </div>
+      </div>
+
+      <!--Submit-->
+      <div class="form-group">
+        <button type="submit" class="subscribe-btn"> Submit </button>
+      </div>
+    </form>
+    </div>
+  </section>
+
+  <!-- Social media icons -->
+  <footer>
+    <div class="socialmedia">
+      <a class="btn-floating btn-lg btn-fb" type="button" role="button" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+      <a class="tw-ic mr-3" role="button" href="https://www.twitter.com"><i class="fa fa-lg fa-twitter"></i></a>
+      <a class="btn-floating btn-lg btn-ins" type="button" role="button" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>
